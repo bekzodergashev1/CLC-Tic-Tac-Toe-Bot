@@ -302,7 +302,7 @@ def inline_query(update: Update, context: CallbackContext) -> None:
 def callback_query(update: Update, context: CallbackContext):
     query = update.callback_query
 
-    query.answer(text='🤚')
+    query.answer(text='❌ Sizni galingiz emas! ❌')
 
     game = Game(context)
     is_player1_first = True
